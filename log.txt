@@ -1,0 +1,134 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'install',
+0 verbose cli   '--quiet'
+0 verbose cli ]
+1 info using npm@7.19.0
+2 info using node@v14.17.3
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\bin\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\saura\Desktop\hero\proj\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\saura\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\saura\.npm-global\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 12ms
+19 timing npm:load:configload Completed in 12ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing npm:load:setupLog Completed in 0ms
+22 timing npm:load:cleanupLog Completed in 1ms
+23 timing npm:load:configScope Completed in 0ms
+24 timing npm:load:projectScope Completed in 1ms
+25 timing npm:load Completed in 16ms
+26 timing config:load:flatten Completed in 3ms
+27 timing arborist:ctor Completed in 1ms
+28 timing arborist:ctor Completed in 0ms
+29 timing idealTree:init Completed in 12ms
+30 timing idealTree:userRequests Completed in 0ms
+31 silly idealTree buildDeps
+32 silly fetch manifest @angular/animations@~12.1.1
+33 http fetch GET 200 https://registry.npmjs.org/@angular%2fanimations 685ms (cache miss)
+34 silly fetch manifest @angular/core@~12.1.1
+35 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 231ms (cache revalidated)
+36 silly fetch manifest rxjs@~6.6.0
+37 http fetch GET 200 https://registry.npmjs.org/rxjs 175ms (cache revalidated)
+38 silly fetch manifest zone.js@~0.11.4
+39 http fetch GET 200 https://registry.npmjs.org/zone.js 160ms (cache revalidated)
+40 silly fetch manifest @angular/common@~12.1.1
+41 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 167ms (cache revalidated)
+42 silly fetch manifest @angular/compiler@~12.1.1
+43 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler 134ms (cache revalidated)
+44 silly fetch manifest @angular/forms@~12.1.1
+45 http fetch GET 200 https://registry.npmjs.org/@angular%2fforms 3619ms (cache miss)
+46 silly fetch manifest @angular/platform-browser@~12.1.1
+47 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser 702ms (cache miss)
+48 silly fetch manifest @angular/platform-browser-dynamic@~12.1.1
+49 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic 421ms (cache miss)
+50 silly fetch manifest @angular/router@~12.1.1
+51 http fetch GET 200 https://registry.npmjs.org/@angular%2frouter 453ms (cache miss)
+52 silly fetch manifest tslib@^2.2.0
+53 http fetch GET 200 https://registry.npmjs.org/tslib 207ms (cache revalidated)
+54 silly fetch manifest @angular-devkit/build-angular@~12.1.1
+55 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fbuild-angular 223ms (cache revalidated)
+56 silly fetch manifest @angular/compiler-cli@~12.1.1
+57 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler-cli 202ms (cache revalidated)
+58 silly fetch manifest typescript@~4.3.2
+59 http fetch GET 200 https://registry.npmjs.org/typescript 392ms (cache revalidated)
+60 silly fetch manifest @angular/localize@^12.0.0 || ^12.1.0-next
+61 http fetch GET 200 https://registry.npmjs.org/@angular%2flocalize 283ms (cache revalidated)
+62 silly fetch manifest @angular/service-worker@^12.0.0 || ^12.1.0-next
+63 http fetch GET 200 https://registry.npmjs.org/@angular%2fservice-worker 235ms (cache revalidated)
+64 silly fetch manifest karma@~6.3.0
+65 http fetch GET 200 https://registry.npmjs.org/karma 185ms (cache revalidated)
+66 silly fetch manifest ng-packagr@^12.0.0 || ^12.1.0-next
+67 http fetch GET 200 https://registry.npmjs.org/ng-packagr 216ms (cache revalidated)
+68 silly fetch manifest protractor@^7.0.0
+69 http fetch GET 200 https://registry.npmjs.org/protractor 233ms (cache revalidated)
+70 silly fetch manifest tailwindcss@^2.0.0
+71 http fetch GET 200 https://registry.npmjs.org/tailwindcss 158ms (cache revalidated)
+72 silly fetch manifest autoprefixer@^10.0.2
+73 http fetch GET 200 https://registry.npmjs.org/autoprefixer 311ms (cache revalidated)
+74 silly fetch manifest postcss@^8.1.0
+75 http fetch GET 200 https://registry.npmjs.org/postcss 213ms (cache revalidated)
+76 silly fetch manifest tslint@^6.1.0
+77 http fetch GET 200 https://registry.npmjs.org/tslint 160ms (cache revalidated)
+78 silly fetch manifest @angular/cli@~12.1.1
+79 http fetch GET 200 https://registry.npmjs.org/@angular%2fcli 180ms (cache revalidated)
+80 silly fetch manifest @types/jasmine@~3.6.0
+81 http fetch GET 200 https://registry.npmjs.org/@types%2fjasmine 168ms (cache revalidated)
+82 silly fetch manifest @types/node@^12.11.1
+83 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 219ms (cache revalidated)
+84 silly fetch manifest jasmine-core@~3.7.0
+85 http fetch GET 200 https://registry.npmjs.org/jasmine-core 166ms (cache revalidated)
+86 silly fetch manifest karma-chrome-launcher@~3.1.0
+87 http fetch GET 200 https://registry.npmjs.org/karma-chrome-launcher 141ms (cache revalidated)
+88 silly fetch manifest karma-coverage@~2.0.3
+89 http fetch GET 200 https://registry.npmjs.org/karma-coverage 138ms (cache revalidated)
+90 silly fetch manifest karma-jasmine@~4.0.0
+91 http fetch GET 200 https://registry.npmjs.org/karma-jasmine 137ms (cache revalidated)
+92 silly fetch manifest karma-jasmine-html-reporter@^1.5.0
+93 http fetch GET 200 https://registry.npmjs.org/karma-jasmine-html-reporter 151ms (cache revalidated)
+94 silly fetch manifest jasmine-core@>=3.8
+95 timing idealTree Completed in 11258ms
+96 timing command:install Completed in 11276ms
+97 verbose stack Error: unable to resolve dependency tree
+97 verbose stack     at Arborist.[failPeerConflict] (C:\Program Files\nodejs\node_modules\npm\bin\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1212:25)
+97 verbose stack     at Arborist.[loadPeerSet] (C:\Program Files\nodejs\node_modules\npm\bin\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1179:34)
+97 verbose stack     at async Arborist.[buildDepStep] (C:\Program Files\nodejs\node_modules\npm\bin\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:882:11)
+97 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\bin\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:218:7)
+97 verbose stack     at async Promise.all (index 1)
+97 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\bin\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:134:5)
+97 verbose stack     at async Install.install (C:\Program Files\nodejs\node_modules\npm\bin\node_modules\npm\lib\install.js:150:5)
+98 verbose cwd C:\Users\saura\Desktop\hero\proj
+99 verbose Windows_NT 10.0.19043
+100 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node_modules\\npm\\bin\\npm-cli.js" "install" "--quiet"
+101 verbose node v14.17.3
+102 verbose npm  v7.19.0
+103 error code ERESOLVE
+104 error ERESOLVE unable to resolve dependency tree
+105 error
+106 error While resolving: proj@0.0.0
+106 error Found: jasmine-core@3.7.1
+106 error node_modules/jasmine-core
+106 error   dev jasmine-core@"~3.7.0" from the root project
+106 error
+106 error Could not resolve dependency:
+106 error peer jasmine-core@">=3.8" from karma-jasmine-html-reporter@1.7.0
+106 error node_modules/karma-jasmine-html-reporter
+106 error   dev karma-jasmine-html-reporter@"^1.5.0" from the root project
+106 error
+106 error Fix the upstream dependency conflict, or retry
+106 error this command with --force, or --legacy-peer-deps
+106 error to accept an incorrect (and potentially broken) dependency resolution.
+106 error
+106 error See C:\Users\saura\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+107 verbose exit 1
